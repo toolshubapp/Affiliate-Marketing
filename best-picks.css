@@ -1,0 +1,73 @@
+/* HERO */
+.bp-hero {
+  background: linear-gradient(135deg, #ff7a18, #ffb347);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.bp-hero h1 {
+  font-size: 36px;
+}
+
+.bp-hero p {
+  opacity: 0.9;
+}
+
+/* PRODUCTS */
+.bp-products {
+  padding: 60px 20px;
+  background: #f9fafc;
+}
+
+/* CARD */
+.bp-card {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.bp-card:hover {
+  transform: translateY(-5px);
+}
+
+.bp-card img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* CONTENT */
+.bp-content h2 {
+  margin-bottom: 10px;
+}
+
+.bp-meta {
+  margin: 10px 0;
+  color: #555;
+}
+
+/* BUTTONS */
+.bp-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-outline {
+  padding: 10px 15px;
+  border: 2px solid #ff7a18;
+  color: #ff7a18;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  background: #ff7a18;
+  color: #fff;
+}
