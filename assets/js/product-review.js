@@ -53,6 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("longDesc").innerText = product.longDesc;
   document.getElementById("amazonLink").href = product.amazon;
 
+  const finalAmazonLink = document.getElementById("finalAmazonLink");
+  if (finalAmazonLink) finalAmazonLink.href = product.amazon;
+
   document.getElementById("specRating").innerText = product.rating;
 
   product.features.forEach(f =>
@@ -68,6 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
 });
+
 // ================= RELATED PRODUCTS =================
 
 const relatedProducts = [
